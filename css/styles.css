@@ -13,7 +13,7 @@
 
 header {
 	text-align: center;
-	padding: 5em;
+	padding: 7.5em 5em 5em;
 }
 
 .logo {
@@ -82,4 +82,36 @@ h2 {
 footer {
 	padding: 2em 0 1em;
 	text-align: center;
+}
+
+nav {
+	border-bottom: 1px solid #aaa;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	background: #fff;
+	z-index: 10000;
+}
+
+nav ul {
+	width: 30em;
+	margin: auto;
+}
+
+nav li {
+	margin: 0;
+	padding: .5em 1.5em;
+	width: auto;
+	list-style: none;
+	display: inline-block;
+}
+
+nav h5 {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+nav a {
+	text-decoration: none;
 }
