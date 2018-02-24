@@ -115,3 +115,7 @@ nav h5 {
 nav a {
 	text-decoration: none;
 }
+
+.map {
+	width: 100%;
+}
